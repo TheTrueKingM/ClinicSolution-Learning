@@ -18,11 +18,11 @@ theme:
 
 
 
-  name: material # Используем современную тему Material Design
+  name: material
 
 
 
-  language: ru   # Включаем русский интерфейс (поиск, кнопки)
+  language: ru  
 
 
 
@@ -30,11 +30,11 @@ theme:
 
 
 
-    - navigation.expand # Раскрывающееся меню
+    - navigation.expand 
 
 
 
-    - content.code.copy # Кнопка копирования кода
+    - content.code.copy 
 
 
 
