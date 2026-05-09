@@ -23,4 +23,13 @@ jobs:
 
       - run: mkdocs gh-deploy --force
 
-      
+      plugins:
+
+  - search
+
+  - print-site:
+
+      add_to_navigation: true
+
+      print_page_title: 'Печать документации (PDF)'
+
