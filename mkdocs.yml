@@ -24,3 +24,14 @@ nav:
   - Разработчику:
       - Архитектура: developer/architecture.md
       - API: developer/api.md
+
+plugins:
+
+  - search
+
+  - print-site:
+
+      add_to_navigation: true
+
+      print_page_title: 'Печать документации (PDF)'
+
