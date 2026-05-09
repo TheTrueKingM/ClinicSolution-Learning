@@ -39,34 +39,17 @@ theme:
 
 
 nav:
-
-
-
   - Главная: index.md
 
+  - Руководство оператора (ГОСТ 19.505):
+      - Титульный лист: gost/00-title.md
+      - 1. Назначение программы: gost/01-purpose.md
+      - 2. Условия выполнения: gost/02-conditions.md
+      - 3. Выполнение программы: gost/03-execution.md
+      - 4. Сообщения оператору: gost/04-messages.md
 
-
-  - Руководство пользователя:
-
-
-
-      - Быстрый старт: user-guide/getting-started.md
-
-
-
-      - Словарь терминов: user-guide/glossary.md
-
-
-
-  - Разработчику:
-
-
-
-      - Архитектура: developer/architecture.md
-
-
-
-      - API: developer/api.md
+  - Справочник разработчика:
+      - API Reference: developer/api.md
 
       markdown_extensions:
   - pymdownx.arithmatex:
@@ -75,4 +58,11 @@ nav:
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+  plugins:
+  - search
+
+  - print-site:
+      add_to_navigation: true
+      print_page_title: "Печать документации (PDF)"
 
